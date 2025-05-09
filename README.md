@@ -171,3 +171,8 @@ You'll add three slots: ``AppointmentType, Date, and Time.``
 ## Conclusion
 This project showcases a simple appointment booking chatbot using Amazon Lex V2 with Lambda fulfillment. It collects appointment details like type, date, and time, then confirms the booking using a Lambda function — demonstrating how to build smart, conversational interfaces on AWS.
 
+## 📚 Author
+![AWS](https://img.shields.io/badge/Built%20with-AWS-orange?style=flat&logo=amazonaws)![BY](https://img.shields.io/badge/--Junior-green)
+**🔗 Feel free to contribute or suggest improvements!** 
+<p align="right">
+  <a href="https://www.linkedin.com/in/junior-kalomba-10002a18a/" target="_blank"> 
