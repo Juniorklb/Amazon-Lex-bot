@@ -1,4 +1,5 @@
 # 🤖 Amazon Lex Bot – Book an Appointment
+![AWS](https://img.shields.io/badge/Built%20with-AWS-orange?style=flat&logo=amazonaws)![Project Status](https://img.shields.io/badge/status-finished-green)
 
 This project demonstrates how to build an Amazon Lex chatbot with a single intent: **Book an Appointment**. The bot collects information such as date, time, and type of appointment using conversational AI. Once all required slots are filled, it confirms the booking or passes the data to a Lambda function for processing.
 
