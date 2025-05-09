@@ -66,8 +66,59 @@ This project demonstrates how to build an Amazon Lex chatbot with a single inten
 
 - Save it for now — we’ll define slots and utterances in the next step.
 
+## Step 2: Define Slots and Sample Utterances
+#### 🗣️ A. Sample Utterances
+- In the BookAppointment intent, add a few training phrases (utterances) to teach Lex what users might say:
+  
+``I want to book an appointment``
 
+``Schedule an appointment for {Date} at {Time}``
 
+`` Book a {AppointmentType} appointment on {Date}``
+
+``I need to see a {AppointmentType} at {Time}``
+
+``Can I get a {AppointmentType} appointment tomorrow?``
+
+**B. Define Slots**
+You'll add three slots: ``AppointmentType, Date, and Time.``
+
+1. ``AppointmentType``
+   
+- Slot name: ``AppointmentType``
+
+- Slot type: Custom (create a slot type)
+
+   - Click "Add slot type"
+
+   - Name: ``AppointmentTypeValues``
+
+   - Values: Doctor, Dentist, Therapist, Interview, Haircut
+
+- Prompt: “What type of appointment would you like to book?”
+
+2. ``Date``
+  - Slot name: ``Date``
+
+  - Slot type: ``AMAZON.Date``
+
+  - Prompt: “On what date do you want the appointment?”
+
+ 3. ``Time``
+   - Slot name: ``Time``
+
+   - Slot type: ``AMAZON.Time``
+
+   - Prompt: “What time works best for your appointment?”
+
+###  Confirmation Prompt (Optional) 
+- You can enable confirmation before fulfillment:
+
+   - Prompt:
+     “Just to confirm, you want to book a {AppointmentType} appointment on {Date} at {Time}, right?”
+
+- Decline response:
+   “Okay, I’ve canceled the appointment request.”
 ## What I Learned
 
 - Building conversational interfaces using Amazon Lex
