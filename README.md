@@ -9,7 +9,7 @@ This project demonstrates how to build an Amazon Lex chatbot with a single inten
 - **Bot Name:** AppointmentBot
 - **Intent Name:** BookAppointment
 - **Slots Used:**
-  - `AppointmentType` (e.g., Doctor, Dentist, Interview)
+  - `AppointmentType` (Doctor, Dentist, Interview)
   - `Date` (Amazon built-in slot type: `AMAZON.Date`)
   - `Time` (Amazon built-in slot type: `AMAZON.Time`)
 - **Lambda Fulfillment (Optional):** Simulates booking logic and returns confirmation
@@ -17,7 +17,7 @@ This project demonstrates how to build an Amazon Lex chatbot with a single inten
 
 ---
 
-## 🛠️ Setup Steps
+##  Setup Steps
 
 1. **Create a new bot** in Amazon Lex V2 
 2. **Create an intent** named `BookAppointment`
@@ -37,8 +37,38 @@ This project demonstrates how to build an Amazon Lex chatbot with a single inten
 9. **Integrate** with Amazon Connect, website chat widget, or Slack
 
 ---
+## Step 1: Create the Lex Bot & Define Intent
 
-## 🧠 What I Learned
+**A. Go to Amazon Lex Console (V2)**
+- Link: https://console.aws.amazon.com/lexv2/
+
+- Click **“Create bot”**
+
+**B. Configure Bot Settings**
+- Bot name: AppointmentBot
+
+- IAM Role: Create a new role with basic Lex permissions
+
+- Language: English (US)
+
+- Children-directed: No
+
+- Sentiment analysis: Off (you can enable it later if needed)
+
+- Idle session timeout: 5 minutes (default is fine)
+
+- Click Next
+
+**C. Add an Intent**
+- Click **“Add intent”** → choose **“Create intent”**
+
+- **Intent name**: ``BookAppointment``
+
+- Save it for now — we’ll define slots and utterances in the next step.
+
+
+
+## What I Learned
 
 - Building conversational interfaces using Amazon Lex
 - Slot management and custom slot types
@@ -47,7 +77,7 @@ This project demonstrates how to build an Amazon Lex chatbot with a single inten
 
 ---
 
-## 📌 Status
+##  Status
 
    - Bot is fully functional and tested with Lex V2.  
 ⚙️ Optional: Can be enhanced with calendar integration or backend database (e.g., DynamoDB) for storing appointments.
