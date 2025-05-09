@@ -19,7 +19,7 @@ This project demonstrates how to build an Amazon Lex chatbot with a single inten
 
 ##  Setup Steps
 
-<img align="right" alt="Coding" width="400" src="https://github.com/Juniorklb/Juniorklb/blob/662692f737cc8f550da799d48190446b55a68900/Working%20hard.jpeg">
+<img align="right" alt="Coding" width="600" src="https://github.com/Juniorklb/Amazon-Lex-bot/blob/7d7d7fb4702eb117b1b75bc88b641ba4f10fb763/Images/LEXBOX.PNG">
 
 1. **Create a new bot** in Amazon Lex V2 
 2. **Create an intent** named `BookAppointment`
