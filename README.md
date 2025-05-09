@@ -46,6 +46,8 @@ This project demonstrates how to build an Amazon Lex chatbot with a single inten
 
 - Click **“Create bot”**
 
+![image alt](https://github.com/Juniorklb/Amazon-Lex-bot/blob/397f2078ed328a89c5bab22dc291cfe69a9b41dd/Images/lexxyboy.PNG)
+
 **B. Configure Bot Settings**
 - Bot name: AppointmentBot
 
