@@ -119,8 +119,36 @@ You'll add three slots: ``AppointmentType, Date, and Time.``
 
 - Decline response:
    “Okay, I’ve canceled the appointment request.”
-## What I Learned
 
+## Step 4: Test Your AppointmentBot
+**A. Build the Bot**
+- In the Lex V2 console, click your bot: AppointmentBot
+
+- Go to the "Build" tab at the top right.
+
+- Click “Build” to compile your bot and intents.
+
+   - This may take a minute or two.
+     
+**B. Test in the Console**
+
+- Once the build is complete, go to the “Test” window (on the right side)
+
+- Try typing phrases like:
+
+   - “I need to book an appointment”
+
+   - “Book a dentist appointment for Friday at 2 PM”
+
+**The bot should:**
+
+- Prompt for any missing slots ( time or type)
+
+- Confirm the details
+
+- (If configured) simulate fulfillment
+
+## What we Learned
 - Building conversational interfaces using Amazon Lex
 - Slot management and custom slot types
 - Designing user-friendly prompts and confirmations
@@ -135,5 +163,5 @@ You'll add three slots: ``AppointmentType, Date, and Time.``
 
 ---
 
-## 📁 Files
+## Files
 
