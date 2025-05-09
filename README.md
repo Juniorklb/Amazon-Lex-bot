@@ -42,7 +42,7 @@ This project demonstrates how to build an Amazon Lex chatbot with a single inten
 ## Step 1: Create the Lex Bot & Define Intent
 
 **A. Go to Amazon Lex Console (V2)**
-- Link: https://console.aws.amazon.com/lexv2/
+- Link: [https://console.aws.amazon.com/lexv2/](https://ca-central-1.console.aws.amazon.com/lexv2/home?region=ca-central-1#bots)
 
 - Click **“Create bot”**
 
